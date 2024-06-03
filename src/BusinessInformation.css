@@ -1,0 +1,157 @@
+.create-account-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .step-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+  }
+  
+  .step-indicator.active {
+    color: #333;
+  }
+  
+  .step-indicator span:first-child {
+    background-color: #999;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  
+  .step-indicator.active span:first-child {
+    background-color: #333;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-field {
+    width: 48%;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-field input,
+  .dropdown select {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .dropdown {
+    width: 48%;
+    position: relative;
+  }
+  
+  .dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+  }
+  
+  .documents,
+  .coi-pdf {
+    margin-top: 20px;
+  }
+  
+  .document-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .document-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .document-text i {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .document-text span {
+    color: #333;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container i {
+    margin-left: 10px;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .back-button,
+  .prev-button,
+  .next-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .back-button {
+    background-color: #999;
+  }
+  
+  .prev-button {
+    background-color: #ccc;
+  }
+  
+  .next-button {
+    background-color: #5a50eb;
+    margin-left: 10px;
+  }
+  
+  .contact-us {
+    text-align: right;
+    margin-top: 10px;
+    color: #999;
+  }

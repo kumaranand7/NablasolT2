@@ -1,0 +1,98 @@
+.create-account-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+.step-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+
+.step-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #999;
+  
+}
+
+.step-indicator.active {
+  color: #333;
+}
+
+.step-indicator span:first-child {
+  background-color: #999;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.step-indicator.active span:first-child {
+  background-color: #333;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  width: 48%;
+}
+
+    form-field label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left; /* Aligns the label text to the left */
+    }
+    
+
+.form-field input {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button,
+.next-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #999;
+}
+
+.next-button {
+  background-color: #333;
+}
+
+.contact-us {
+  text-align: right;
+  margin-top: 10px;
+  color: #999;
+}
