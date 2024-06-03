@@ -1,10 +1,17 @@
 import React from 'react';
 import './BusinessInformation.css';
+import crossIcon from './crossIcon.svg';
+import correctIcon from './correctIcon.svg';
+
 
 const BusinessInformation = () => {
   return (
     <div className="create-account-container">
-      <h2>Create New Account</h2>
+                  <div className="contact-us">Contact Us</div>
+
+            <h2>Create New Account</h2>
+
+
       <div className="step-container">
         <div className="step-indicator">
           <span>1</span>
@@ -71,14 +78,19 @@ const BusinessInformation = () => {
       <i className="fa fa-check"></i>
       <span>Electronically sign the agreement(s)</span>
     </div>
+   
     <i className="fa fa-chevron-right"></i>
+    <img src={correctIcon} alt="correct icon " />
   </div>
+  
   <div className="document-item">
     <div className="document-text">
       <i className="fa fa-times"></i>
       <span>Non adult beverage Kroger market supplier waiver and release</span>
     </div>
     <i className="fa fa-chevron-right"></i>
+    <img src={crossIcon} alt="cross icon " />
+
   </div>
 </div>
 <div className="coi-pdf">
@@ -90,17 +102,19 @@ const BusinessInformation = () => {
       <span>Electronically sign the agreement(s)</span>
     </div>
     <i className="fa fa-chevron-right"></i>
+    <img src={correctIcon} alt="correct icon " />
+
   </div>
 </div>
-        <div className="button-container">
+      
+      </div>
+      <div className="button-container">
           <button className="back-button">Back to Login</button>
           <div>
             <button className="prev-button" onClick={() => window.history.back()}>Previous Step</button>
             <button className="next-button">Next Step</button>
           </div>
         </div>
-      </div>
-      <div className="contact-us">Contact Us</div>
     </div>
   );
 };

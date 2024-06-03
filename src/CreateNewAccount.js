@@ -10,6 +10,8 @@ const CreateNewAccount = () => {
 
   return (
     <div className="create-account-container">
+            <div className="contact-us">Contact Us</div>
+
       <h2>Create New Account</h2>
       <div className="step-container">
         <div className="step-indicator active">
@@ -58,14 +60,14 @@ const CreateNewAccount = () => {
             <input type="password" id="confirmPassword" placeholder="Confirm Your Password" />
           </div>
         </div>
-        <div className="button-container">
+      
+      </div>
+      <div className="button-container">
           <button className="back-button">Back to Login</button>
           <button className="next-button" onClick={handleNextClick}>
             Next Step
           </button>
         </div>
-      </div>
-      <div className="contact-us">Contact Us</div>
     </div>
   );
 };
