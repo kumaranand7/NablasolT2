@@ -2,14 +2,17 @@ import React from 'react';
 import './BusinessInformation.css';
 import crossIcon from './crossIcon.svg';
 import correctIcon from './correctIcon.svg';
+import wave from './wave.svg';
+
 
 
 const BusinessInformation = () => {
   return (
+    <>
+         <img src={wave} alt="wave backgroud" id='wave-img' />
+
     <div className="create-account-container">
                   <div className="contact-us">Contact Us</div>
-
-            <h2>Create New Account</h2>
 
 
       <div className="step-container">
@@ -116,6 +119,7 @@ const BusinessInformation = () => {
           </div>
         </div>
     </div>
+    </>
   );
 };
 

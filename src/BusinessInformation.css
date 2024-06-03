@@ -1,9 +1,10 @@
+
 .create-account-container {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 5px;
     max-width: 800px;
-    margin: 0 auto;
+
   }
   
   .step-container {
@@ -23,6 +24,9 @@
     color: #333;
   }
   
+  h3{
+    text-align: center;
+  }
   .step-indicator span:first-child {
     background-color: #999;
     color: #fff;

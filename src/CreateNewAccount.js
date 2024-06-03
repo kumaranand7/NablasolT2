@@ -1,6 +1,8 @@
 import React from 'react';
 import './CreateNewAccount.css';
 import { useNavigate } from 'react-router-dom';
+import wave from './wave.svg';
+
 
 const CreateNewAccount = () => {
   const navigate = useNavigate();
@@ -9,7 +11,11 @@ const CreateNewAccount = () => {
   };
 
   return (
+    <> 
+     <img src={wave} alt="wave bg" id='wave-img'/>
     <div className="create-account-container">
+         
+
             <div className="contact-us">Contact Us</div>
 
       <h2>Create New Account</h2>
@@ -69,6 +75,7 @@ const CreateNewAccount = () => {
           </button>
         </div>
     </div>
+    </>
   );
 };
 

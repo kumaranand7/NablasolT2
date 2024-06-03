@@ -6,6 +6,10 @@
   margin: 0 auto;
   
 }
+#wave-img{
+position: absolute;
+z-index: -1;
+}
 
 .step-container {
   display: flex;
